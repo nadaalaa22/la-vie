@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "F:\\la_vie\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
+            "outputFile": "F:\\la_vie\\la_vie\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-night-v8\\values-night-v8.xml",
             "map": [
                 {
-                    "source": "F:\\la_vie\\android\\app\\src\\main\\res\\values-night\\styles.xml",
+                    "source": "F:\\la_vie\\la_vie\\android\\app\\src\\main\\res\\values-night\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
