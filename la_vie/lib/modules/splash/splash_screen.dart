@@ -1,7 +1,8 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:flutter/cupertino.dart';
 
-import '../../layout/uesr_login/user_login_screen.dart';
+import '../../layout/uesr_login/login.dart';
+
 
 
 class SplashScreen extends StatefulWidget {
@@ -16,7 +17,7 @@ class _SplashScreenState extends State<SplashScreen> {
   Widget build(BuildContext context) {
     return AnimatedSplashScreen(
         splash: 'assets/images/logo.png',
-        nextScreen: UserLoginScreen(),
+        nextScreen:MainLogin(),
         splashTransition:  SplashTransition.slideTransition,
         duration: 3000,
     );

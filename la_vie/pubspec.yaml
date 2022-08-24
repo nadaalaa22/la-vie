@@ -43,12 +43,11 @@ dependencies:
   dio: ^4.0.6
   hexcolor: ^2.0.3
   shared_preferences: ^2.0.15
-  webview_flutter: ^3.0.4
-  smooth_page_indicator: ^1.0.0+2
   fluttertoast: ^8.0.9
   carousel_slider: ^4.1.1
   curved_navigation_bar: ^1.0.3
   flutter_svg: ^1.1.4
+  tabbar: ^0.1.1
 
 dev_dependencies:
   flutter_test:

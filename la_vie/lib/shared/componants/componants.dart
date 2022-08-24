@@ -17,7 +17,7 @@ Widget defaultbutton ({
     child: Text(
       isUpperCase? text.toUpperCase(): text,
       style: TextStyle(
-        fontSize: 10.0,
+        fontSize: 20.0,
         color: Colors.white,
       ),
 
@@ -62,11 +62,11 @@ Widget defaultFormField({
   onTap: onTap,
   onChanged: onChange,
   decoration: InputDecoration(
-    hintText:label,
+    labelText:label,
     hoverColor: Colors.purple,
     border: OutlineInputBorder() ,
     isDense: true,
-    contentPadding: EdgeInsets.fromLTRB(0, 20,0, 0),
+    contentPadding: EdgeInsets.fromLTRB(10, 20,0, 0),
     // prefixIcon: Icon(
     //     prefix
     // ),
