@@ -37,7 +37,7 @@ class MainLogin extends StatelessWidget {
                     ),
                     Padding(
                       padding: const EdgeInsetsDirectional.only(
-                          top: 170, start: 40, end: 40, bottom: 50),
+                          top: 140, start: 40, end: 40, bottom: 50),
                       child: Form(
                         child: Column(
                           mainAxisSize: MainAxisSize.max,

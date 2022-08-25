@@ -66,7 +66,7 @@ Widget defaultFormField({
     hoverColor: Colors.purple,
     border: OutlineInputBorder() ,
     isDense: true,
-    contentPadding: EdgeInsets.fromLTRB(10, 20,0, 0),
+    contentPadding: EdgeInsets.fromLTRB(0, 20,0, 0),
     // prefixIcon: Icon(
     //     prefix
     // ),
@@ -76,6 +76,9 @@ Widget defaultFormField({
           suffixPressed!();
         },
         icon: Icon(suffix)) : null ,
+    prefixIcon: Icon(
+        prefix
+    ),
   ),
   validator: validate,
 

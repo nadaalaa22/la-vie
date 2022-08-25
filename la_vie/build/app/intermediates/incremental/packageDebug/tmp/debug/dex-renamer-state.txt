@@ -1,4 +1,4 @@
-#Wed Aug 24 22:08:18 EET 2022
+#Thu Aug 25 20:41:56 EET 2022
 base.0=F\:\\la_vie\\la_vie\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

@@ -19,7 +19,6 @@ class HomeLayout  extends StatelessWidget {
         AssetImage("assets/images/leave.png"),
         size: 30,
       ),
-
       ImageIcon(
         AssetImage("assets/images/scanner.png"),
         size: 30,
@@ -57,11 +56,8 @@ class HomeLayout  extends StatelessWidget {
                 height: 60,
                 index: cubit.currentIndex,
                 items: items,
-
                 onTap: (index) {
                   cubit.changeIndex(index);
-
-
                 },
 
 
